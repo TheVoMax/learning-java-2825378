@@ -19,8 +19,8 @@ public class Main {
         // Have the user input an answer
         System.out.println("Odpowiedz: ");
         // Retrieve the user's input
-        Scanner input = new Scanner(System.in);
-        String answer = input.next();
+        Scanner scanner = new Scanner(System.in);
+        String answer = scanner.next();
 
         // If the user's input matches the correctAnswer...
         if(answer.equals(correctAnswer)){
