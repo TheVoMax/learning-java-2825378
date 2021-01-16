@@ -1,14 +1,16 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String args[]) {
         String question = "Jaki mam kolor sciany?";
-        String choiceOne = "Zolty";
-        String choiceTwo = "Zielony";
-        String choiceThree = "Czerwony";
+        String choiceOne = "zolty";
+        String choiceTwo = "zielony";
+        String choiceThree = "czerwony";
 
         String correctAnswer = choiceTwo;
+
 
         // Write a print statement asking the question
         System.out.println(question);
@@ -23,7 +25,7 @@ public class Main {
         String answer = scanner.next();
 
         // If the user's input matches the correctAnswer...
-        if(answer.equals(correctAnswer)){
+        if(correctAnswer.equals(answer.toLowerCase())){
             // then the user is correct and we want to print out a congrats message to the user.
             System.out.println("Poprawna odpowiedz!");
             // If the user's input does not match the correctAnswer...
