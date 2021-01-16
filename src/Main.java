@@ -15,7 +15,5 @@ public class Main {
         System.out.println("No i elo");
         announceDeveloperTeaTime();
         System.out.println("Dobra koniec");
-
     }
-
 }
